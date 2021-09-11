@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/raed-sebti/jenkins-pipeline/blob/main/Jenkinsfile'
+        git 'https://github.com/raed-sebti/jenkins-pipeline'
       }
     }
 
