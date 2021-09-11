@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "docker.io"
+    registry = "docker.io/raed-sebti"
     dockerImage = ""
   }
 
